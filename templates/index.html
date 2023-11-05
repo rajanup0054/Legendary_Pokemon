@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon Legendary Prediction</title>
+</head>
+<body>
+    <h1>Pokemon Legendary Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="total">Total:</label>
+        <input type="number" name="total" step="1"><br>
+        <label for="hp">HP:</label>
+        <input type="number" name="hp" step="1"><br>
+        <label for="attack">Attack:</label>
+        <input type="number" name="attack" step="1"><br>
+        <label for="defense">Defense:</label>
+        <input type="number" name="defense" step="1"><br>
+        <label for="sp_atk">Special Attack:</label>
+        <input type="number" name="sp_atk" step="1"><br>
+        <label for="sp_def">Special Defense:</label>
+        <input type="number" name="sp_def" step="1"><br>
+        <label for="speed">Speed:</label>
+        <input type="number" name="speed" step="1"><br> <!-- Add Speed input -->
+        <input type="submit" value="Predict"> <!-- Add the submit button -->
+    </form>
+    <h2>True for Legendary Pokemon else false</h2>
+</body>
+</html>
